@@ -1,0 +1,9 @@
+@import '@/styles/variables.scss';
+
+.test {
+  font-family: $main-font;
+}
+
+.t2{
+  font-family: var(--font-sharp-groteskB20);
+}

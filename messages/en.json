@@ -1,0 +1,11 @@
+{
+  "HomePage": {
+    "title": "A Crypto Wallet For Everything Onchain",
+    "subTitle": "All your tokens, DeFi positions, NFT collections, and transaction history across all major networks.",
+    "swapSendStore": "Swap, Send, and Store your Crypto with Uroboros \u2028and pay the fee in any token you want!",
+    "multipleChainsOneWallet": "Multiple chains, one wallet. No more switching."
+  },
+  "Header": {
+    "joinWaitList": "Join waitlist"
+  }
+}
