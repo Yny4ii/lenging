@@ -5,9 +5,9 @@ import { Autoplay } from 'swiper/modules'
 import { BlockchainsArray } from '@/screens/main/blockchainsSupport/config'
 import BlockchainCard from '@/screens/main/blockchainsSupport/blockchainCard/BlockchainCard'
 import 'swiper/css'
-import styles from './blockchainCarousel.module.scss'
+import styles from './blockchainSlider.module.scss'
 
-const BlockchainCarousel = () => {
+const BlockchainSlider = () => {
     return (
         <div>
             <Swiper
@@ -53,4 +53,4 @@ const BlockchainCarousel = () => {
     )
 }
 
-export default BlockchainCarousel
+export default BlockchainSlider

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './blockchainSupport.module.scss'
-import BlockchainCarousel from '@/screens/main/blockchainsSupport/blockchainCarousel/BlockchainCarousel'
+import BlockchainSlider from '@/screens/main/blockchainsSupport/blockchainSlider/BlockchainSlider'
 import { useTranslations } from 'next-intl'
 
 const BlockchainSupport = () => {
@@ -9,7 +9,7 @@ const BlockchainSupport = () => {
     return (
         <div className={styles.blockchainSupportContainer}>
             <h2>{t('blockchainSupport')}</h2>
-            <BlockchainCarousel />
+            <BlockchainSlider />
         </div>
     )
 }

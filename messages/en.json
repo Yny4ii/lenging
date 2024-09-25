@@ -16,6 +16,36 @@
         "dapps": "Access to 100+ DApps",
         "tokens": "Staking Support for 25+ Tokens"
       }
+    },
+    "advantages": {
+      "wallet": {
+        "title": "Multiple chains, one wallet. No more switching.",
+        "text": "Manage your crypto assets between different networks without bridging them and simply access your funds on all EVM chains from our wallet."
+      },
+      "nogas": {
+        "title": "Gasless swaps",
+        "text": "Pay the fee in any token you want! You don't need to buy native tokens to pay gas."
+      },
+      "swap": {
+        "title": "Swap and bridge It just works",
+        "text": "Cross-chain swaps, endless DEX and bridge liquidity, and Flashbots protection from sandwich attacks and MEV."
+      },
+      "controlled": {
+        "title": "Controlled by you Supported by usе",
+        "text": "You are in full control of your funds, and we never have access to your private keys."
+      },
+      "nft": {
+        "title": "Showcase your NFT collection",
+        "text": "Sell NFTs in just 2 clicks"
+      },
+      "mev": {
+        "title": "MEV Redistribution",
+        "text": "Feel like a market maker by reducing spreads and making MEV profits when an opportunity arises"
+      },
+      "import": {
+        "title": "Import existing wallets and dApps",
+        "text": "Instantly import your wallets from MetaMask, Wallet, Coinbase Wallet, Phantom and more."
+      }
     }
   },
   "Header": {

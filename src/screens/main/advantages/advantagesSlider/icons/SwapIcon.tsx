@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CrossChainIcon = () => {
+const SwapIcon = () => {
     return (
         <svg
             width="244"
@@ -316,4 +316,4 @@ const CrossChainIcon = () => {
     )
 }
 
-export default CrossChainIcon
+export default SwapIcon
