@@ -8,6 +8,7 @@ import {
 import '../styles/global.scss'
 import { getLocale, getMessages } from 'next-intl/server'
 import { NextIntlClientProvider } from 'next-intl'
+import Header from '@/components/header/Header'
 
 export const metadata: Metadata = {
     title: 'UROBOROS',
@@ -24,12 +25,14 @@ export default async function RootLayout({
     return (
         <html lang={locale}>
             <body
-                className={` ${rubik.className} ${sharpGroteskMedium20.variable}
+                className={`${sharpGroteskMedium20.variable}
                 ${sharpGroteskBook20.variable}
                 ${sharpGroteskMedium25.variable}
+                ${rubik.className}
                 `}
             >
                 <NextIntlClientProvider messages={messages}>
+                    <Header />
                     {children}
                 </NextIntlClientProvider>
             </body>

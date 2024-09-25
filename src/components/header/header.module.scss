@@ -1,0 +1,21 @@
+@import 'src/styles/variables.scss';
+
+.headerContainer {
+  padding: 16px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  span {
+    font-weight: 300;
+    color: $accent-color;
+    font-size: 16px;
+    letter-spacing: 0.93em;
+  }
+}

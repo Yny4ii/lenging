@@ -1,0 +1,18 @@
+@import '/src/styles/variables';
+
+.joinWaitListContainer {
+  padding: 16px 64px;
+  box-shadow: 0 5px 10px 0 rgba(51, 51, 51, 0.01), 0 16px 32px 0 rgba(46, 250, 238, 0.25);
+  background: #061c1d;
+  border: 1px solid $accent-color;
+  border-radius: 120px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 22px;
+  color: $accent-color;
+  font-family: $main-font;
+  line-height: 145%;
+  margin: auto;
+  margin-right: 16px;
+
+}

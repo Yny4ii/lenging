@@ -18,4 +18,4 @@ export const sharpGroteskMedium25 = localFont({
     variable: '--font-sharp-groteskM25',
 })
 
-export const rubik = Rubik({ subsets: ['latin'] })
+export const rubik = Rubik({ subsets: ['latin'], variable: '--font-rubik' })
