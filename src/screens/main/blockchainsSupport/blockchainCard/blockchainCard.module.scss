@@ -1,0 +1,12 @@
+@import 'src/styles/variables.scss';
+
+.blockchainCardContainer {
+  background-color: $dark-gray-color;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  border-radius: 12px;
+  height: 240px;
+  justify-content: space-between;
+
+}

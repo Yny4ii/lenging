@@ -1,14 +1,17 @@
+'use client'
 import React from 'react'
-import { useTranslations } from 'next-intl'
-import styles from './page.module.scss'
+import SecureBlock from '@/screens/main/secureBlock/SecureBlock'
+import BlockchainSupport from '@/screens/main/blockchainsSupport/BlockchainSupport'
+import Integrate from '@/screens/main/integrate/Integrate'
 
 const MainPage = () => {
-    const t = useTranslations('MainPage')
     return (
-        <div>
-            <h1 className={styles.test}>{t('title')}</h1>
-            <h2 className={styles.t2}>{t('subTitle')}</h2>
-        </div>
+        <main>
+            <SecureBlock />
+            <Integrate />
+
+            <BlockchainSupport />
+        </main>
     )
 }
 

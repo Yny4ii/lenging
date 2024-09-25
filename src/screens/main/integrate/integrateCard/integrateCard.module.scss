@@ -1,0 +1,35 @@
+@import '/src/styles/variables';
+
+.integrateCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  text-align: center;
+  font-family: $secondary-font;
+  font-weight: 400;
+  width: fit-content;
+
+  h4 {
+    font-size: 120px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 140%;
+  }
+}
+
+.iconContainer {
+  width: 160px;
+  height: 160px;
+  border: 2px solid $accent-color;
+  border-radius: 32px;
+  background-color: $black-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

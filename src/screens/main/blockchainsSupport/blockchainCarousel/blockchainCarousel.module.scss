@@ -1,0 +1,15 @@
+.swiperCustom {
+  display: flex;
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+  width: 100%;
+
+  &:nth-child(2) {
+    margin-top: 10px;
+  }
+}
+
+.slider {
+  max-width: 143px;
+}

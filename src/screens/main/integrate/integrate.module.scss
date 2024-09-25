@@ -1,0 +1,12 @@
+@import '/src/styles/variables.scss';
+
+.integrateContainer {
+  h3 {
+    font-size: 32px;
+    text-align: center;
+    margin: 0 auto 85px auto;
+    font-family: $secondary-font;
+  }
+
+  margin-bottom: 180px;
+}

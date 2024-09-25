@@ -3,12 +3,26 @@
     "title": "A Crypto Wallet For Everything Onchain",
     "subTitle": "All your tokens, DeFi positions, NFT collections, and transaction history across all major networks.",
     "swapSendStore": "Swap, Send, and Store your Crypto with Uroboros \u2028and pay the fee in any token you want!",
-    "multipleChainsOneWallet": "Multiple chains, one wallet. No more switching."
+    "multipleChainsOneWallet": "Multiple chains, one wallet. No more switching.",
+    "blockchainSupport": "Supports millions of assets and NFTs on blockchains.",
+    "secure": "Securely store, swap, and send Crypto and NFTs across 300+ blockchains.",
+    "integrate": {
+      "title": "UROBOROS has Integrated",
+      "cards": {
+        "chains": "Chains",
+        "bridges": "Bridges",
+        "wallets": "Wallets",
+        "marketplaces": "Marketplaces",
+        "dapps": "Access to 100+ DApps",
+        "tokens": "Staking Support for 25+ Tokens"
+      }
+    }
   },
   "Header": {
     "joinWaitList": "Join waitlist"
   },
   "footer": {
+    "description": "UROBOROS one place for all your crypto. Securely store,swap, and send Crypto and NFTs across 300+ blockchains.",
     "blocks": {
       "about": {
         "title": "About",
@@ -86,6 +100,10 @@
           }
         ]
       }
+    },
+    "legal": {
+      "term": "Term of use",
+      "cookie": "Cookie Preference"
     }
   }
 }
