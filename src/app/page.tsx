@@ -1,12 +1,5 @@
-import styles from './page.module.scss'
-import { useTranslations } from 'next-intl'
+import MainPage from '@/screens/main/MainPage'
 
-export default function Home() {
-    const t = useTranslations('HomePage')
-    return (
-        <div>
-            <h1 className={styles.test}>{t('title')}</h1>
-            <h2 className={styles.t2}>{t('subTitle')}</h2>
-        </div>
-    )
+export default function Page() {
+    return <MainPage />
 }

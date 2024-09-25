@@ -1,5 +1,5 @@
 {
-  "HomePage": {
+  "MainPage": {
     "title": "A Crypto Wallet For Everything Onchain",
     "subTitle": "All your tokens, DeFi positions, NFT collections, and transaction history across all major networks.",
     "swapSendStore": "Swap, Send, and Store your Crypto with Uroboros \u2028and pay the fee in any token you want!",
@@ -7,5 +7,85 @@
   },
   "Header": {
     "joinWaitList": "Join waitlist"
+  },
+  "footer": {
+    "blocks": {
+      "about": {
+        "title": "About",
+        "links": [
+          {
+            "text": "Whitepaper",
+            "url": "/"
+          },
+          {
+            "text": "Roadmap",
+            "url": "/"
+          },
+          {
+            "text": "Team",
+            "url": "/"
+          },
+          {
+            "text": "FAQ",
+            "url": "/"
+          },
+          {
+            "text": "Tutorial",
+            "url": "/"
+          }
+        ]
+      },
+      "ecosystem": {
+        "title": "Ecosystem",
+        "links": [
+          {
+            "text": "Wallet",
+            "url": "/"
+          },
+          {
+            "text": "Farm",
+            "url": "/"
+          },
+          {
+            "text": "Trade",
+            "url": "/"
+          }
+        ]
+      },
+      "developers": {
+        "title": "Developers",
+        "links": [
+          {
+            "text": "API",
+            "url": "/"
+          },
+          {
+            "text": "Tutorial",
+            "url": "/"
+          },
+          {
+            "text": "Github",
+            "url": "/"
+          },
+          {
+            "text": "Docs",
+            "url": "/"
+          }
+        ]
+      },
+      "governance": {
+        "title": "Governance",
+        "links": [
+          {
+            "text": "Token",
+            "url": "/"
+          },
+          {
+            "text": "DAO",
+            "url": "/"
+          }
+        ]
+      }
+    }
   }
 }

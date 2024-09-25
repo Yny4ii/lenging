@@ -1,0 +1,21 @@
+@import 'src/styles/variables.scss';
+
+.footerLinkContainer {
+  font-family: $secondary-font;
+  font-size: 16px;
+  color: #5caea4;
+  width: 100%;
+
+  ul {
+    line-height: 187%;
+  }
+}
+
+.footerLinkTitle {
+  font-family: $main-font;
+  font-size: 18px;
+  color: $light-gray-color;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+

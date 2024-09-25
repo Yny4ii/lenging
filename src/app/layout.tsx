@@ -9,6 +9,7 @@ import '../styles/global.scss'
 import { getLocale, getMessages } from 'next-intl/server'
 import { NextIntlClientProvider } from 'next-intl'
 import Header from '@/components/header/Header'
+import Footer from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
     title: 'UROBOROS',
@@ -34,6 +35,7 @@ export default async function RootLayout({
                 <NextIntlClientProvider messages={messages}>
                     <Header />
                     {children}
+                    <Footer/>
                 </NextIntlClientProvider>
             </body>
         </html>
