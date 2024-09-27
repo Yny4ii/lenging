@@ -2,6 +2,7 @@ import React from 'react'
 import IntegrateSlider from '@/screens/main/integrate/integrateSlider/IntegrateSlider'
 import styles from './integrate.module.scss'
 import { useTranslations } from 'next-intl'
+import BackgroundLine from "@/components/backgroundLine/BackgroundLine";
 
 const Integrate = () => {
     const t = useTranslations('MainPage.integrate')
@@ -9,6 +10,7 @@ const Integrate = () => {
         <div className={styles.integrateContainer}>
             <h3>{t('title')}</h3>
             <IntegrateSlider />
+            <BackgroundLine top={-630} left={-580} deg={345} />
         </div>
     )
 }

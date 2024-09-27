@@ -2,7 +2,7 @@
   "MainPage": {
     "title": "A Crypto Wallet For Everything Onchain",
     "subTitle": "All your tokens, DeFi positions, NFT collections, and transaction history across all major networks.",
-    "swapSendStore": "Swap, Send, and Store your Crypto with Uroboros \u2028and pay the fee in any token you want!",
+    "swapSendStore": "Swap, Send, and Store your Crypto with Uroboros and pay the fee in any token you want!",
     "multipleChainsOneWallet": "Multiple chains, one wallet. No more switching.",
     "blockchainSupport": "Supports millions of assets and NFTs on blockchains.",
     "secure": "Securely store, swap, and send Crypto and NFTs across 300+ blockchains.",
@@ -56,79 +56,29 @@
     "blocks": {
       "about": {
         "title": "About",
-        "links": [
-          {
-            "text": "Whitepaper",
-            "url": "/"
-          },
-          {
-            "text": "Roadmap",
-            "url": "/"
-          },
-          {
-            "text": "Team",
-            "url": "/"
-          },
-          {
-            "text": "FAQ",
-            "url": "/"
-          },
-          {
-            "text": "Tutorial",
-            "url": "/"
-          }
-        ]
+        "text_1": "Whitepaper",
+        "text_2": "Roadmap",
+        "text_3": "Team",
+        "text_4": "FAQ",
+        "text_5": "Tutorial"
       },
       "ecosystem": {
         "title": "Ecosystem",
-        "links": [
-          {
-            "text": "Wallet",
-            "url": "/"
-          },
-          {
-            "text": "Farm",
-            "url": "/"
-          },
-          {
-            "text": "Trade",
-            "url": "/"
-          }
-        ]
+        "text_1": "Wallet",
+        "text_2": "Farm",
+        "text_3": "Trade"
       },
       "developers": {
         "title": "Developers",
-        "links": [
-          {
-            "text": "API",
-            "url": "/"
-          },
-          {
-            "text": "Tutorial",
-            "url": "/"
-          },
-          {
-            "text": "Github",
-            "url": "/"
-          },
-          {
-            "text": "Docs",
-            "url": "/"
-          }
-        ]
+        "text_1": "API",
+        "text_2": "Tutorial",
+        "text_3": "Github",
+        "text_4": "Docs"
       },
       "governance": {
         "title": "Governance",
-        "links": [
-          {
-            "text": "Token",
-            "url": "/"
-          },
-          {
-            "text": "DAO",
-            "url": "/"
-          }
-        ]
+        "text_1": "Token",
+        "text_2": "DAO"
       }
     },
     "legal": {

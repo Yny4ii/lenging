@@ -31,3 +31,28 @@ export const SocialLinks = [
         url: '',
     },
 ]
+
+export const navLinks = {
+    about: [
+        { id: 'text_1', url: '/whitepaper' },
+        { id: 'text_2', url: '/roadmap' },
+        { id: 'text_3', url: '/team' },
+        { id: 'text_4', url: '/faq' },
+        { id: 'text_5', url: '/tutorial' },
+    ],
+    ecosystem: [
+        { id: 'text_1', url: '/wallet' },
+        { id: 'text_2', url: '/farm' },
+        { id: 'text_3', url: '/trade' },
+    ],
+    developers: [
+        { id: 'text_1', url: '/api' },
+        { id: 'text_2', url: '/tutorial' },
+        { id: 'text_3', url: 'https://github.com' }, // Внешняя ссылка на GitHub
+        { id: 'text_4', url: '/docs' },
+    ],
+    governance: [
+        { id: 'text_1', url: '/token' },
+        { id: 'text_2', url: '/dao' },
+    ],
+}

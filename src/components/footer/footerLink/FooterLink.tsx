@@ -5,19 +5,18 @@ import { useTranslations } from 'next-intl'
 
 interface FooterLinkKey {
     blockKey: string
+    links: { id: string; url: string }[]
 }
 
-const FooterLink = ({ blockKey }: FooterLinkKey) => {
-    const t = useTranslations('footer.blocks')
-    const blockTitle = t(`${blockKey}.title`)
-    const links = t.raw(`${blockKey}.links`)
+const FooterLink = ({ blockKey, links }: FooterLinkKey) => {
+    const t = useTranslations(`footer.blocks.${blockKey}`)
     return (
         <div className={styles.footerLinkContainer}>
-            <h4 className={styles.footerLinkTitle}>{blockTitle}</h4>
+            <h4 className={styles.footerLinkTitle}>{t('title')}</h4>
             <ul>
-                {links.map((e: { url: string; text: string }) => (
-                    <li key={e.text}>
-                        <Link href={e.url}>{e.text}</Link>
+                {links.map((e: { id: string; url: string }) => (
+                    <li key={e.id}>
+                        <Link href={e.url}>{t(e.id)}</Link>
                     </li>
                 ))}
             </ul>
