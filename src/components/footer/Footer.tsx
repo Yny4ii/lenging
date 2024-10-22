@@ -50,6 +50,8 @@ const Footer = () => {
             </div>
             <div className={styles.imgContainer}>
                 <Image
+                    quality={100}
+                    unoptimized={true}
                     src={'/UroborosFooter.png'}
                     width={642}
                     height={369}
