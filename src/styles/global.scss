@@ -4,6 +4,8 @@
 html, body {
   background-color: #021012;
   color: $light-gray-color;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 button {
@@ -11,4 +13,8 @@ button {
   outline: none;
   border: none;
   color: inherit;
+}
+
+.swiper-wrapper{
+  justify-content: center;
 }
