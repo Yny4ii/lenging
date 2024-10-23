@@ -4,7 +4,8 @@
   font-family: $secondary-font;
   font-size: 16px;
   color: #5caea4;
-  width: 100%;
+  width: fit-content;
+  flex: 0 1 auto;
 
   ul {
     line-height: 187%;

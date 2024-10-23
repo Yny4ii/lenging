@@ -8,3 +8,11 @@
 .swiperSlide{
   width: 223px;
 }
+
+.sliderContainer{
+  display: block;
+  @media(width <=750px)
+  {
+    display: none;
+  }
+}

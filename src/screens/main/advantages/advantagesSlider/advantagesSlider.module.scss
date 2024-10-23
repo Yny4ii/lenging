@@ -7,4 +7,7 @@
 
 .swiperSlide {
   width: 390px!important;
+  @media(width <=780px){
+    width: 320px!important;
+  }
 }

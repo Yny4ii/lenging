@@ -12,7 +12,7 @@ import { IntegrateArray } from '@/screens/main/integrate/config'
 const IntegrateSlider = () => {
     const t = useTranslations('MainPage.integrate.cards')
     return (
-        <div>
+        <div className={styles.sliderContainer}>
             <Swiper
                 className={styles.swiperCustom}
                 spaceBetween={300}

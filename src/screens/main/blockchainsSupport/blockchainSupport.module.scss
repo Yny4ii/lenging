@@ -12,4 +12,14 @@
   position: relative;
   overflow-x: clip;
   z-index: 2;
+
+  @media(width <=750px) {
+    h2 {
+      margin-bottom: 32px;
+      font-size: 32px;
+      line-height: 120%;
+    }
+    margin-bottom: 70px;
+  }
+
 }

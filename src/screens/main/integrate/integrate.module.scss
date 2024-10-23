@@ -11,4 +11,12 @@
   margin-bottom: 180px;
   position: relative;
   overflow-x: clip;
+  @media(width <=750px) {
+    h3 {
+      margin-bottom: 32px;
+
+    }
+    margin-bottom: 96px;
+  }
+
 }

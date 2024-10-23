@@ -13,24 +13,42 @@
   margin: 0 40px 0 40px;
   z-index: 2;
   overflow-x: clip;
+  @media(width <=590px) {
+    margin: 0 8px 0 8px;
+    padding: 32px 16px 64px 16px;
+  }
+
 }
 
 .footerSummary {
   display: flex;
   flex-direction: row;
   gap: 117px;
+
+
+  @media(width <=910px) {
+    flex-direction: column;
+    gap: 32px;
+    padding: 32px 16px;
+  }
 }
 
 .linksContainer {
   display: flex;
   gap: 30px;
   width: 100%;
+  justify-content: space-between;
+  flex-flow: wrap;
 }
 
 .socialLinksContainer {
   display: flex;
   flex-direction: row;
   gap: 17px;
+  @media(width <=460px) {
+    flex-flow: wrap;
+
+  }
 }
 
 .footerInfo {
@@ -45,12 +63,16 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 156%;
+  @media(width <=590px) {
+    font-size: 14px;
+  }
+
 }
 
 .imgContainer {
   position: absolute;
   left: 50%;
-  top: 43%;
+  bottom: -204px;
   transform: translate(-50%);
   z-index: 3;
   pointer-events: none;
@@ -63,6 +85,9 @@
   transform: translate(-50%);
   z-index: 2;
   pointer-events: none;
+  @media(width<=1420px) {
+    display: none;
+  }
 }
 
 .legalContainer {
@@ -70,10 +95,22 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+
+  @media(width <=620px) {
+    flex-direction: column-reverse;
+    gap: 32px;
+    align-items: start;
+  }
+
+
 }
 
 .legalLinksContainer {
   display: flex;
   gap: 32px;
   justify-content: end;
+  @media(width <=620px) {
+    flex-direction: column;
+    gap: 16px;
+  }
 }

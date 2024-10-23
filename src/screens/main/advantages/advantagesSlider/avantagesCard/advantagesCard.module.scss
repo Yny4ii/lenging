@@ -9,7 +9,7 @@
   border-radius: 32px;
   align-items: center;
   background-color: $black-color;
-  height: 600px;
+  height: 500px;
   text-align: center;
 
 
@@ -22,5 +22,16 @@
     font-size: 20px;
     line-height: 140%;
     font-weight: 300;
+  }
+
+  @media(width <=750px) {
+    padding: 32px;
+    height: 442px;
+    h4 {
+      font-size: 24px;
+    }
+    span {
+      font-size: 16px;
+    }
   }
 }

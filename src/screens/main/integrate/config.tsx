@@ -19,17 +19,17 @@ export const IntegrateArray = [
         text: 'wallets',
     },
     {
-        icon: <ChainIcon />,
+        icon: <WalletIcon />,
         title: '+20',
         text: 'marketplaces',
     },
     {
-        icon: <ChainIcon />,
+        icon: <WalletIcon />,
         title: '+100',
         text: 'dapps',
     },
     {
-        icon: <ChainIcon />,
+        icon: <WalletIcon />,
         title: '+25',
         text: 'tokens',
     },
